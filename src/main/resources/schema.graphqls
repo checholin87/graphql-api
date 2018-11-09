@@ -1,0 +1,13 @@
+schema {
+    query: Query
+}
+
+type Query {
+    findScamper: [Scamper!]
+}
+
+type Scamper {
+    id: String
+    total: Int
+    description: String
+}
